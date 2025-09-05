@@ -1,0 +1,198 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.articles,.events,.photos,.banners,.videos,.articles-stories{margin-bottom: 70px;}
+.column-overlay{width:100%;}
+.column-inner-overlay{width:100%}
+.header .lower-header .navbar{background-color: #fff !important;border-bottom: 2px solid #ebebeb;width: 100%;border-top:1px solid #ebebeb;}
+.header .collapse.navbar-collapse ul li a{color:#333;width:140px;font-size:14px ;text-transform: uppercase;text-align:center;font-weight: bold}
+            .page-title {
+                padding-left: 0;
+                list-style: none;
+                margin-bottom: 0;
+            }
+            .page-title li {
+                display: inline-block;
+            }
+            .page-title li a {
+                background-color: #333;
+                color: #fff;
+                padding: 5px 10px;
+                margin-right: 2px;
+                border-radius: 0px;
+                text-decoration: none;
+            }
+
+.carousel{width:100%;}
+.carousel .carousel-item{width:100%}
+.carousel .carousel-item .carousel-cover-image,.column-inner-overlay .carousel-cover-image{width:100%;background-color:#f3f3f3;height:550px}
+.banners-aside{width:100%;margin-bottom:5px}
+.banners-aside .banners-aside-cover{background-color:#f3f3f3;width:inherit;height:140px}
+
+
+.column-overlay .banners-aside:nth-child(odd){border-bottom:#d3d3d3}
+
+.titles{border-top:1px solid #333;border-bottom: 1px solid #333;}
+.articles .articles-cards{width:100%;}
+.article-headline-story,.events-stories{width: 100%;height:200px;position: relative;}
+.article-headline-caption,.events-overlay{position: absolute;background-color:#f3f3f3;top:0px;right: 0px;bottom: 0px;left:0px;padding:4px}
+
+.article-headline-caption h6{bottom: 10px;position: absolute;}
+.articles-card-header{width:100%;height:200px;background-color: #f3f3f3}
+.article-new-story{padding-top:5px;padding-bottom: 5px;}
+.stories{width: 100%;height:80px;border-bottom:1px dotted #333;position: relative;padding-top:5px;padding-bottom: 5px;}
+.stories-img,.stories-body{position:absolute;height:68px}
+.stories-img{width:27%;background-color: #f3f3f3;margin-bottom: 5px;}
+.stories-body{right:0px;width:72%;}
+
+
+.owl-carousel .item{width:100%;height:150px;background-color: #f3f3f3;}
+
+.uppers-events{width:100%;}
+.uppers-events .streaming{width:100%;height: 350px; background-color: #f3f3f3;}
+
+
+
+
+
+.footer{background-color: #333;padding:100px 30px;}
+.footer h5{color:#fff;text-transform: capitalize;}
+.footer h6{color:#fff;text-transform: capitalize;}
+.footer p{color:#ccc;}
+.footer i{color:#fff}
+.footer span{color:#ccc;text-align: justify;}
+.footer img{width:100%;height:250px;}
+.footer .social{float:left;width:22.5%;height:60px;margin-left:5px;text-align:center;padding:15px}
+.footer .social.facebook{background-color:#4267B2;}
+.footer .social.twitter{background-color:#1da1f2;}
+.footer .social.instagram{background-color: #fe9126;}
+.footer .social.linkedin{background-color:rgba(214,69,65,1);}
+.footer .social i{font-size:2.0em}
+.footer ul{list-style:none;}
+.footer ul li{display: block;margin-bottom:15px;margin-left:-30px}
+.footer ul li a{text-decoration:none;color:#ccc;}
+.footer ul li a:hover{color:#fff}
+.footer .address-info{width:100%;}/*color:rgba(214,69,65,0.7)*/
+.footer .left-item i{font-size:2.0em;color:#fff}
+.footer .left-item{float:left;width:20%;background-color:#3e3e3e;height:65px;margin-bottom:5px;padding:15px;text-align:center}
+.footer .right-item{float:right;width:77%;margin-right:5px;background-color:#3e3e3e;height:65px;margin-bottom:5px;padding:10px}
+.footer .btn{border:none;border-radius: 0px;background-color:#4267B2}
+.footer input{border-radius:0px;}
+.footer-lower{background-color:#333;padding:30px 0px;width:100%}
+.footer-lower .outer{width:100%;border-top:2px solid #fff;padding:5px 0px;border-bottom:2px solid #fff}
+.footer-lower .inner{width:100%;border-top:2px solid #fff;padding:15px 0px;border-bottom:2px solid #fff;color:#ccc}
+.footer-lower .outer-lower{padding:5px 0px;}
+.footer-lower .inner-lower{padding:15px 0px;color:#ccc}
+.footer-lower ul{list-style: none;}
+.footer-lower li{display: inline-block;margin-left:-30px;margin-right: 30px;}
+
+.footer-lower li img{width:60px;height:40px;}
+
+/* ==========================================================================
+   Responsive Styles
+   ========================================================================== */
+
+/* Medium devices (tablets, 992px and down) */
+/*@media (max-width: 991.98px) {
+    .header .collapse.navbar-collapse ul li a {
+        width: 100%;
+        text-align: left;
+        padding: 10px 15px;
+        border-bottom: 1px solid #444;
+    }
+
+    .footer .social {
+        width: 48%;
+        margin: 1%;
+    }
+
+    .footer .left-item,
+    .footer .right-item {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .footer .right-item {
+        margin-top: 10px;
+    }
+
+    .footer-lower li {
+        margin-right: 15px;
+        margin-left: -15px;
+    }
+}
+
+/* Small devices (landscape phones, 768px and down) */
+/*@media (max-width: 767.98px) {
+    .carousel .carousel-item .carousel-cover-image,
+    .column-inner-overlay .carousel-cover-image,
+    .uppers-events .streaming {
+        height: 250px;
+    }
+
+    .stories {
+        height: auto;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stories-img,
+    .stories-body {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .stories-img {
+        height: 180px; /* Example height for story images on mobile */
+   /*     margin-bottom: 10px;
+    }
+*//*
+    .footer {
+        padding: 50px 15px;
+        text-align: center;
+    }
+
+    .footer .social {
+        width: 100%;
+        margin: 5px 0;
+        float: none;
+    }
+
+    .footer-lower ul {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footer-lower li {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+/* Extra small devices (portrait phones, 576px and down) */
+/*(@media (max-width: 575.98px) {
+    .carousel .carousel-item .carousel-cover-image,
+    .column-inner-overlay .carousel-cover-image,
+    .uppers-events .streaming {
+        height: 200px;
+    }
+
+    .footer .social {
+        display: inline-block;
+        width: 80%;
+    }
+}
+
+*/
+
+/*
+@media (max-width: 767.98px) {
+    .col-12,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3{width:100%}
+}
+
+*/
